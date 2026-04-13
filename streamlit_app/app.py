@@ -6,147 +6,157 @@ Backend must be running on http://localhost:8000.
 
 from __future__ import annotations
 
-from datetime import date
-
 import streamlit as st
 
 import api_client
-from constants import MAJOR_CITIES
 
 # ── Page config ──────────────────────────────────────────────────────
 st.set_page_config(
     page_title="Festival Impact Planning",
     layout="wide",
-    initial_sidebar_state="expanded",
+    initial_sidebar_state="collapsed",
 )
 
 # ── Session state defaults ───────────────────────────────────────────
-for key, default in [
+_DEFAULTS: list[tuple[str, object]] = [
     ("data", None),
     ("trend_data", None),
     ("store_key", ""),
     ("date_labels", {}),
-    ("include_minor", False),
+    ("show_minor", False),
+    ("minor_data_loaded", False),
     ("show_unmapped", False),
     ("last_current", ""),
     ("last_refs", []),
-    ("city_overrides", {}),  # {city: {row1: val, row2: val}}
-]:
-    if key not in st.session_state:
-        st.session_state[key] = default
+    ("city_overrides", {}),
+    ("loading", False),
+    ("error", ""),
+]
+for _k, _v in _DEFAULTS:
+    if _k not in st.session_state:
+        st.session_state[_k] = _v
 
 
-def _key_label(key: str) -> str:
-    if key == "current":
-        return st.session_state.date_labels.get("current", "Current")
-    return st.session_state.date_labels.get(key, key.replace("ref", "Ref "))
+# ── Callbacks ────────────────────────────────────────────────────────
 
-
-def _pct(v) -> str:
-    if v is None:
-        return ""
-    return f"{v:.2f}%"
-
-
-def _merge_response(resp: dict):
-    """Merge a partial API response into session_state.data."""
-    data = st.session_state.data
-    if data is None:
+def _do_compute():
+    """Run the full compute pipeline."""
+    cur = st.session_state.get("inp_current")
+    r1 = st.session_state.get("inp_ref1")
+    r2 = st.session_state.get("inp_ref2")
+    r3 = st.session_state.get("inp_ref3")
+    refs = [str(d) for d in [r1, r2, r3] if d is not None]
+    if cur is None or not refs:
         return
-    for level_key in ("city", "subcat", "subcat_cut", "hub", "hub_cut"):
-        if level_key in resp:
-            data[level_key] = resp[level_key]
-    if "store_key" in resp:
-        st.session_state.store_key = resp["store_key"]
+
+    cur_str = str(cur)
+    st.session_state.last_current = cur_str
+    st.session_state.last_refs = refs
+    st.session_state.city_overrides = {}
+    st.session_state.show_minor = False
+    st.session_state.minor_data_loaded = False
+    st.session_state.show_unmapped = False
+    st.session_state.error = ""
+
+    labels = {"current": cur_str}
+    for i, d in enumerate(refs):
+        labels[f"ref{i + 1}"] = d
+    st.session_state.date_labels = labels
+
+    try:
+        result = api_client.compute(cur_str, refs, include_minor=False)
+        st.session_state.data = result
+        st.session_state.store_key = result.get("store_key", "")
+        try:
+            st.session_state.trend_data = api_client.fetch_trends(refs)
+        except Exception:
+            st.session_state.trend_data = None
+    except Exception as e:
+        st.session_state.error = str(e)
+        st.session_state.data = None
 
 
-# ── Sidebar: date inputs + controls ─────────────────────────────────
-with st.sidebar:
-    st.header("Festival Dates")
-    current_date = st.date_input("Current Date", value=None)
-    ref1 = st.date_input("Reference Date 1", value=None)
-    ref2 = st.date_input("Reference Date 2", value=None)
-    ref3 = st.date_input("Reference Date 3", value=None)
+def _toggle_minor():
+    """Toggle minor cities visibility; re-compute with include_minor on first show."""
+    if st.session_state.show_minor:
+        st.session_state.show_minor = False
+        return
 
-    refs = [str(d) for d in [ref1, ref2, ref3] if d is not None]
-    can_compute = current_date is not None and len(refs) > 0
+    if st.session_state.minor_data_loaded:
+        st.session_state.show_minor = True
+        return
 
-    include_minor = st.checkbox(
-        "Include Minor Cities",
-        value=st.session_state.include_minor,
-        key="cb_minor",
-    )
+    if not st.session_state.last_current:
+        return
+    try:
+        result = api_client.compute(
+            st.session_state.last_current,
+            st.session_state.last_refs,
+            include_minor=True,
+        )
+        st.session_state.data = result
+        st.session_state.store_key = result.get("store_key", "")
+        st.session_state.show_minor = True
+        st.session_state.minor_data_loaded = True
+    except Exception as e:
+        st.session_state.error = f"Failed to load minor cities: {e}"
 
-    if st.button("Compute", disabled=not can_compute, type="primary", use_container_width=True):
-        cur_str = str(current_date)
-        st.session_state.last_current = cur_str
-        st.session_state.last_refs = refs
-        st.session_state.include_minor = include_minor
-        st.session_state.city_overrides = {}
-        st.session_state.show_unmapped = False
 
-        labels = {"current": cur_str}
-        for i, d in enumerate(refs):
-            labels[f"ref{i+1}"] = d
-        st.session_state.date_labels = labels
-
-        with st.spinner("Computing festival impact... (first run may take several minutes)"):
-            try:
-                result = api_client.compute(cur_str, refs, include_minor)
-                st.session_state.data = result
-                st.session_state.store_key = result.get("store_key", "")
-                try:
-                    trend_result = api_client.fetch_trends(refs)
-                    st.session_state.trend_data = trend_result
-                except Exception:
-                    st.session_state.trend_data = None
-            except Exception as e:
-                st.error(f"Compute failed: {e}")
-
-    # Re-compute if minor cities toggle changed after initial compute
-    if (
-        st.session_state.data is not None
-        and include_minor != st.session_state.include_minor
-        and st.session_state.last_current
-    ):
-        st.session_state.include_minor = include_minor
-        with st.spinner("Recomputing with minor cities..."):
-            try:
-                result = api_client.compute(
-                    st.session_state.last_current,
-                    st.session_state.last_refs,
-                    include_minor,
-                )
-                st.session_state.data = result
-                st.session_state.store_key = result.get("store_key", "")
-            except Exception as e:
-                st.error(f"Recompute failed: {e}")
-
-    st.divider()
+# ── Header ───────────────────────────────────────────────────────────
+hdr_left, hdr_right = st.columns([8, 2])
+with hdr_left:
+    st.markdown("## Festival Impact Planning")
+with hdr_right:
     if st.session_state.store_key:
         try:
             excel_bytes = api_client.get_export_bytes(st.session_state.store_key)
             st.download_button(
-                "Download Excel",
+                "Export Excel",
                 data=excel_bytes,
                 file_name=f"Festival_Plan_{st.session_state.store_key[:8]}.xlsx",
                 mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
                 use_container_width=True,
             )
         except Exception:
-            st.warning("Export not available yet — run Compute first.")
+            pass
 
+# ── Date inputs (inline, matching React DateInputPanel) ──────────────
+with st.container():
+    c1, c2, c3, c4, c5 = st.columns([2, 2, 2, 2, 1.5])
+    with c1:
+        st.date_input("Current Date", value=None, key="inp_current")
+    with c2:
+        st.date_input("Reference Date 1", value=None, key="inp_ref1")
+    with c3:
+        st.date_input("Reference Date 2", value=None, key="inp_ref2")
+    with c4:
+        st.date_input("Reference Date 3", value=None, key="inp_ref3")
+    with c5:
+        st.markdown("<div style='height:1.6rem'></div>", unsafe_allow_html=True)
+        _can_compute = (
+            st.session_state.get("inp_current") is not None
+            and any(st.session_state.get(f"inp_ref{i}") is not None for i in (1, 2, 3))
+        )
+        st.button(
+            "Compute",
+            disabled=not _can_compute,
+            type="primary",
+            use_container_width=True,
+            on_click=_do_compute,
+        )
 
-# ── Main area ────────────────────────────────────────────────────────
-st.title("Festival Impact Planning")
+# ── Loading / error states ───────────────────────────────────────────
+if st.session_state.error:
+    st.error(st.session_state.error)
 
 if st.session_state.data is None:
-    st.info("Enter dates in the sidebar and click **Compute** to begin.")
+    if not st.session_state.error:
+        st.info("Enter dates above and click **Compute** to begin.")
     st.stop()
 
+# ── Tabs ─────────────────────────────────────────────────────────────
 data = st.session_state.data
 
-# Import page renderers
 from pages.city import render_city
 from pages.city_subcat import render_indexed_level
 from pages.city_hub_cut import render_hub_cut
@@ -154,7 +164,7 @@ from pages.city_hub_cut import render_hub_cut
 tab_city, tab_subcat, tab_subcat_cut, tab_hub, tab_hub_cut = st.tabs([
     "City",
     "City-Subcategory",
-    "City-SubCat-CutClass",
+    "City-Subcategory-CutClass",
     "City-Hub",
     "City-Hub-CutClass",
 ])
@@ -173,7 +183,7 @@ with tab_subcat:
 
 with tab_subcat_cut:
     render_indexed_level(
-        title="City-SubCat-CutClass",
+        title="City-Subcategory-CutClass",
         level_data=data["subcat_cut"],
         group_fields=[
             ("city_name", "City"),
