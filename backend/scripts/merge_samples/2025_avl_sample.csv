@@ -1,0 +1,101 @@
+city_name,hub_name,hub_id,sku_group,category,av_dt,flag,instances
+Mumbai,MLD,79,"Parshe Whole, Cleaned",Fish & Seafood,2025-04-11,35.0,48
+Bangalore,GNJ,2671,Double Yolk Eggs - Pack of 6,Eggs,2026-02-24,19.0,46
+Bangalore,JPNS,,Chicken Curry Cut with Skin - Small Pieces,Chicken,2025-11-30,20.0,48
+Pune,WKD,58,Chicken Seekh Kebab,Kebab & Tandoor,2025-04-19,48.0,48
+NCR,BKC,26,Lucknowi Mutton Galouti Kebab,Kebab & Tandoor,2025-03-20,47.0,47
+Hyderabad,MYP,2459,Chicken Mince,Chicken,2026-02-09,47.0,47
+NCR,DWK,,Chicken Thigh Boneless,Chicken,2025-07-15,48.0,48
+Bangalore,KOM,8,Lamb Fat,Lamb & Goat,2025-02-13,0.0,48
+Mumbai,TAR,2344,Angara Murgh Tikka,Kebab & Tandoor,2025-07-20,48.0,48
+NCR,GZB,48,Chunky Butter Chicken Spread (Single Serve),Spreads,2025-12-30,48.0,48
+Hyderabad,ECL,377,Roopchand Curry cut,Fish & Seafood,2025-04-25,0.0,48
+NCR,AGC,2606,Classic Chicken Lyoner,Cold Cuts,2025-12-28,48.0,48
+Bangalore,HOODI,10,Chunky Continental Egg Spread- 200 gms jar,Spreads,2025-03-26,46.0,46
+Hyderabad,PBC,,Three spotted Crab,Fish & Seafood,2025-07-17,0.0,46
+NCR,KLK,28,Seer Small - Whole Fish,Fish & Seafood,2025-02-11,0.0,48
+Central_India,RAIPUR,,Chicken Drumstick,Chicken,2025-08-08,47.0,47
+NCR,EDH,30,White Prawns (30C/Large) - Cleaned & Deveined,Fish & Seafood,2025-12-20,48.0,48
+Mumbai,POW,,Black Pomfret Whole,Fish & Seafood,2025-08-19,48.0,48
+NCR,FDB,51,Classic Meat Masala,Masalas,2025-02-14,0.0,22
+Chennai,POR,137,Rohu Small - Round Steaks with Head,Fish & Seafood,2025-06-11,48.0,48
+Bangalore,TUB,,King Fish Medium - Head and Tail,Fish & Seafood,2025-08-01,0.0,48
+Mumbai,BOR,98,White Pomfret Steaks,Fish & Seafood,2026-01-04,48.0,48
+Hyderabad,ECL,,2 Mutton Paya (Cut Into 8 Pcs),Lamb & Goat,2025-09-24,44.0,44
+Surat,SAT,1057,Chicken Mince,Chicken,2025-12-27,8.0,48
+Chennai,MGR,,Mutton Boti,Lamb & Goat,2025-11-17,0.0,49
+Vizag,MVP,183,Chunky Shawarma Chicken Spread (Single Serve),Spreads,2025-01-11,0.0,48
+Bangalore,PAWBROOK,2567,Loaded Chicken - 8pc,Momos,2026-02-27,0.0,46
+NCR,DWK,,Chicken Frankfurter with Paprika & Cheese,Cold Cuts,2025-10-04,48.0,48
+Kolkata,BUR,221,Creamy Afghani Chicken,Ready to Cook,2025-12-30,48.0,48
+Mumbai,MUL,80,Basa Fillet - (Platinum Grade),Fish & Seafood,2025-01-25,48.0,48
+Hyderabad,NGA,2456,Butter Chicken,Ready to Cook,2026-02-13,48.0,48
+Surat,SAT,,Chunky Butter Chicken Spread (Single Serve),Spreads,2025-08-25,0.0,48
+Vijayawada,BNZ,,King Fish Medium - Head and Tail,Fish & Seafood,2025-09-07,0.0,48
+NCR,CCS,21,Classic Meat Masala,Masalas,2026-01-11,48.0,48
+Chennai,POR,137,Chicken Soup Bones - (Classic),Ready to Cook,2025-06-18,48.0,48
+Bangalore,TUB,1,Atlantic Slamon,Fish & Seafood,2025-01-09,0.0,48
+Bangalore,KRP,,Emperor - Whole,Fish & Seafood,2025-08-26,0.0,48
+Mumbai,KHGR,89,Freshwater Scampi/Giant Prawns (Whole),Fish & Seafood,2025-05-09,48.0,48
+Pune,WKD,58,Mutton Kidney,Lamb & Goat,2025-03-19,0.0,48
+NCR,SMG,,Chicken Mini Bites (Boneless),Chicken,2025-11-09,48.0,48
+NCR,LJN,2448,Basa Fillet - (Platinum Grade),Fish & Seafood,2025-06-05,49.0,49
+Kolkata,LKT,541,Rohu - Bengali Cut (Without Head),Fish & Seafood,2025-01-16,48.0,48
+NCR,SMG,122,Mutton Liver,Lamb & Goat,2025-06-16,48.0,48
+Hyderabad,MSB,,Prawns Small,Fish & Seafood,2025-08-06,49.0,49
+Chennai,PLK,,Chunky Butter Chicken Spread (Single Serve),Spreads,2025-12-11,0.0,48
+Hyderabad,ATP,209,Tengra Whole - Cleaned and Gutted,Fish & Seafood,2025-02-20,0.0,48
+Bangalore,JAK,12,Goat Curry Cut,Lamb & Goat,2025-02-08,48.0,48
+Hyderabad,Yousufguda,,Chunky Continental Egg Spread -35 Gms Blister,Spreads,2025-11-06,48.0,48
+Kolkata,GHT,2467,Tangdi Kebab,Kebab & Tandoor,2026-01-05,26.0,26
+Hyderabad,ATP,209,Chatpata Fish Fry Masala,Masalas,2025-04-12,48.0,48
+Mumbai,VSH,,Kadaknath Eggs,Eggs,2025-11-22,0.0,48
+NCR,DWK,27,Heat & Eat Chicken Malai Tikka,Heat & Eat,2025-07-03,41.0,46
+Kolkata,NWT,219,Brown Eggs,Eggs,2025-06-08,47.0,47
+Bangalore,Indiranagar,4,Chicken Lollipop,Chicken,2026-02-26,12.0,47
+Chennai,MLP,,Chicken Drumstick,Chicken,2025-11-07,49.0,49
+Agra,KKD,,Classic Smoked Chicken Frankfurter,Cold Cuts,2025-09-21,48.0,48
+Bangalore,BNS,2432,White Tuna boneless cubes,Fish & Seafood,2025-06-04,0.0,48
+Kolkata,SNP,220,Kolkata Chicken Biryani,Ready to Cook,2025-02-11,48.0,48
+Bangalore,KRP,108,Rohu - Bengali Cut (Without Head),Fish & Seafood,2026-01-06,39.0,39
+Chandigarh,CDG,,Classic Eggs - Pack Of 30,Eggs,2025-07-13,48.0,48
+Pune,VIM,,Lamb Curry Cut,Lamb & Goat,2025-11-08,48.0,48
+Bangalore,TUB,1,Chicken Tangdi - Biryani Cut,Chicken,2025-05-31,48.0,48
+Hyderabad,KCG,2487,Black Pomfret Whole,Fish & Seafood,2026-03-16,0.0,48
+Mumbai,SEP,,Sardine Whole - Cleaned & Gutted,Fish & Seafood,2025-08-30,0.0,48
+Chennai,TBM,112,Chicken 65,Ready to Cook,2025-01-28,48.0,48
+Surat,VDR,1085,Chicken Chorizo Frankfurter,Cold Cuts,2025-02-25,0.0,48
+Mumbai,TAR,2344,Chatpata Fish Fry Masala,Masalas,2025-05-16,46.0,46
+NCR,RNG,2447,River Sol Fillet,Fish & Seafood,2025-06-26,46.0,46
+Bangalore,KOM,8,Mutton Kidney,Lamb & Goat,2025-06-17,48.0,48
+Pune,KNDH,,Chicken Mini Bites (Boneless),Chicken,2025-09-10,48.0,48
+Mumbai,SEP,,Kajoli Whole (Cleaned),Fish & Seafood,2025-10-28,0.0,48
+Kolkata,SNP,,Chicken Sausage with Thyme & Cheese,Cold Cuts,2025-08-18,0.0,48
+NCR,DWK,,Chicken Gizzard,Chicken,2025-11-22,48.0,48
+Hyderabad,SDB,,Mutton Fat,Lamb & Goat,2025-07-16,0.0,47
+NCR,RNG,,Mourola - Whole,Fish & Seafood,2025-08-18,0.0,48
+NCR,GRN,,Mutton Spleen,Lamb & Goat,2025-08-29,0.0,48
+NCR,SUN,,Chicken Curry Cut,Chicken,2025-10-08,49.0,49
+NCR,TLK,,"Parshe Whole, Cleaned",Fish & Seafood,2025-12-09,0.0,48
+Hyderabad,Yousufguda,,Chicken Curry Cut with Skin - Small Pieces,Chicken,2025-07-17,46.0,46
+Bangalore,KAM,2,Tilapia - Fillet,Fish & Seafood,2026-02-17,48.0,48
+Hyderabad,Himayatnagar,25,Heat & Eat Chicken Hariyali Tikka,Heat & Eat,2025-06-15,48.0,48
+Kolkata,LKT,541,Chicken Chatpata Pakora,Ready to Cook,2025-02-24,0.0,48
+NCR,NOI,33,Mahi Mahi Cubes,Fish & Seafood,2025-06-18,30.0,48
+NCR,GRN,129,Chicken Keema,Ready to Cook,2026-02-13,48.0,48
+Hyderabad,ATP,209,Hilsa Curry Cut With Head,Fish & Seafood,2025-03-06,0.0,48
+Mumbai,KHGR,89,Chicken Chatpata Pakora,Ready to Cook,2025-05-03,47.0,47
+Kolkata,SDE,1412,Chunky Butter Chicken Spread (Single Serve),Spreads,2026-03-11,47.0,47
+Pune,WGH,93,UnCrave Plant Based Chick~n Seekh Kebab,PBM,2025-01-03,0.0,48
+NCR,LJN,,Prawns Small,Fish & Seafood,2025-09-07,45.0,48
+Bangalore,CLT,46,Basa Fillet - (Platinum Grade),Fish & Seafood,2025-12-29,48.0,48
+Vizag,MVP,183,Tilapia - Fillet,Fish & Seafood,2025-12-17,48.0,48
+Hyderabad,ATP,209,Catla - Bengali Cut (Without Head),Fish & Seafood,2025-01-27,48.0,48
+Mumbai,WDL,100,Butter Garlic Prawns,Ready to Cook,2026-02-09,47.0,47
+Pune,KOTH,102,Chicken Leg Curry Cut,Chicken,2025-06-05,49.0,49
+Bangalore,BEG,134,Crunchy Chicken Burger Patty with Jalapeno & Cheese,Ready to Cook,2026-02-15,48.0,48
+NCR,SMG,122,Creamy Afghani Chicken,Ready to Cook,2025-03-26,29.0,46
+Bangalore,KGP,2415,Seer Steaks,Fish & Seafood,2025-06-10,48.0,48
+Bangalore,ECT,15,Murrel Fry cut,Fish & Seafood,2025-04-30,0.0,47
+NCR,SMG,122,Oriental Basil Chicken,Ready to Cook,2025-04-17,13.0,48
+NCR,HKM,2431,Chicken and Cheese Momo - 8 pc,Momos,2026-01-19,46.0,46

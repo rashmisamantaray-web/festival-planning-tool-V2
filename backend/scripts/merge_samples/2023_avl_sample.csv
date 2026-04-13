@@ -1,0 +1,101 @@
+city_name,hub_name,hub_id,sku_group,category,av_dt,flag,instances
+Bangalore,SJR,3,Honey Chilli Garlic Chicken Wings,Ready to Cook,2023-08-17,48.0,48
+Chennai,NVL,113,Honey Chilli Garlic Chicken Wings,Ready to Cook,2023-02-15,48.0,48
+NCR,SMG,122,Catla Head,Fish & Seafood,2023-12-05,0.0,48
+Kochi,PDVA,263,Tandoori Chicken,Kebab & Tandoor,2023-03-29,0.0,48
+Bangalore,KAM,2,Tilapia - Bengali Cut (Without Head),Fish & Seafood,2023-06-29,0.0,48
+Chennai,POR,137,Barracuda Steaks,Fish & Seafood,2023-03-19,0.0,48
+NCR,ECS,19,Original Tandoori Chicken Masala,Masalas,2023-08-03,48.0,48
+Mumbai,BLP,504,Basa Fillet - (Platinum Grade),Fish & Seafood,2023-08-30,11.0,48
+Chennai,TBM,112,Prawns Medium - Cleaned and Deveined - Small Pack,Fish & Seafood,2023-03-24,46.0,48
+Pune,KOTH,102,Tangdi Kebab,Kebab & Tandoor,2023-01-01,47.0,48
+NCR,CDH,32,Sichuan Chilli Chicken (Strips),Ready to Cook,2023-05-13,28.0,28
+Chennai,PLK,78,Chunky Herby Tomato Chicken Spread,Spreads,2022-12-24,0.0,48
+Hyderabad,LBN,374,Chicken Curry Cut with Skin - Small Pack,Chicken,2022-12-17,0.0,48
+NCR,CCS,21,Thyme and Paprika Roast Chicken - Spatchcock (Half),Ready to Cook,2023-09-06,0.0,48
+Mumbai,MUL,80,Bombay Duck. Whole,Fish & Seafood,2023-09-27,8.0,48
+Pune,KNDH,88,Hilsa Curry Cut With Head,Fish & Seafood,2023-04-18,0.0,48
+NCR,GZB,48,Awadhi Mutton Biryani,Ready to Cook,2022-12-11,0.0,48
+Kolkata,NWT,219,Chicken Gizzard,Chicken,2023-01-21,48.0,48
+Chennai,NVL,113,Chicken Leg Curry Cut,Chicken,2023-03-13,48.0,48
+Kolkata,LKT,541,Chicken Mince,Chicken,2023-07-17,48.0,48
+Hyderabad,Yousufguda,18,Chicken Cutlet (Bengali Style),Ready to Cook,2023-09-22,0.0,48
+Hyderabad,ATP,209,Chicken Lollipop,Chicken,2022-12-16,48.0,48
+Hyderabad,SDB,142,Mutton Kidney,Lamb & Goat,2023-10-09,48.0,48
+Pune,MGP,59,Prawns Small,Fish & Seafood,2022-09-14,15.0,48
+Hyderabad,Trimulgherry,24,Roopchand Steaks,Fish & Seafood,2023-12-10,48.0,48
+NCR,CCS,21,"Parshe Whole, Cleaned",Fish & Seafood,2023-10-18,0.0,48
+Mumbai,GDB,154,Sunday Roast Chicken - Whole,Ready to Cook,2023-02-08,0.0,48
+Mumbai,CHM,81,White Pomfret Steaks,Fish & Seafood,2023-10-29,17.0,48
+NCR,NGC,125,Chicken Loaf(Smoked & Sliced),Cold Cuts,2022-12-07,48.0,48
+Mumbai,CHM,81,Chunky Sriracha Prawn Spread (single serve),Spreads,2022-11-17,42.0,48
+NCR,SMS,157,Classic Lamb Burger Patty,Ready to Cook,2023-02-19,0.0,48
+Mumbai,KHGR,89,Chicken Breast Boneless - Small Pack,Chicken,2023-01-15,48.0,48
+Chennai,ANGR,138,Chunky Sriracha Chicken Spread,Spreads,2022-09-15,48.0,48
+Hyderabad,ATP,209,Rohu - Bengali Cut (With Head),Fish & Seafood,2023-09-11,0.0,48
+Mumbai,POW,64,Hariyali Murgh Tikka,Kebab & Tandoor,2023-10-06,48.0,48
+NCR,NEX,132,Fish Tikka,Ready to Cook,2022-12-27,48.0,48
+Mumbai,ADE,63,Amritsari Achari Murgh,Ready to Cook,2023-05-06,48.0,48
+Hyderabad,MNK,49,"Parshe Whole, Cleaned",Fish & Seafood,2023-01-25,0.0,48
+Bangalore,BEL,7,Tengra Whole - Cleaned and Gutted,Fish & Seafood,2022-11-08,0.0,48
+Kolkata,BUR,221,BBQ Chicken Wings without Skin - 10 Pieces,Ready to Cook,2023-08-14,0.0,48
+Bangalore,Indiranagar,4,Chunky Creamy-Tomato Egg Spread - 200 gms jar,Spreads,2023-01-01,1.0,48
+Pune,WKD,58,Tandoori Chicken,Kebab & Tandoor,2022-09-05,48.0,48
+Hyderabad,Yousufguda,18,Tilapia - Whole,Fish & Seafood,2022-10-03,48.0,48
+Bangalore,CLT,46,Hyderabadi Chicken Biryani - Mini,Ready to Cook,2023-10-06,48.0,48
+Bangalore,HOODI,10,White Pomfret Steaks,Fish & Seafood,2022-09-26,48.0,48
+Mumbai,WRL,61,White sardine (Silver fish) - whole,Fish & Seafood,2022-11-25,0.0,48
+Pune,BNR,57,Original Tandoori Chicken Masala,Masalas,2023-12-31,0.0,48
+NCR,SUN,20,Sunday Roast Chicken - Whole,Ready to Cook,2023-07-01,0.0,48
+Hyderabad,MNK,49,Mutton Spleen,Lamb & Goat,2023-12-08,0.0,48
+Hyderabad,Kukatpally,16,"Mackerel Whole, Cleaned",Fish & Seafood,2022-09-09,32.0,48
+Pune,MGP,59,Chicken Sausage with Pimento & Cheese,Cold Cuts,2023-01-16,0.0,48
+Mumbai,MLD,79,Freshwater Scampi/Giant Prawns (Whole),Fish & Seafood,2023-01-12,44.0,48
+Mumbai,WDL,100,Mutton Kapura,Lamb & Goat,2023-09-02,0.0,48
+Chennai,TNGR,95,Rohu Head,Fish & Seafood,2023-07-31,0.0,48
+Pune,BAW,656,Dakshin Pepper Fry Masala,Masalas,2022-11-30,0.0,48
+Pune,KOTH,102,King Fish Cubes,Fish & Seafood,2023-06-30,0.0,48
+Pune,KNDH,88,Chicken 65,Chicken,2023-04-04,0.0,48
+Bangalore,KDB,130,Chicken Seekh Kebab,Kebab & Tandoor,2023-11-14,48.0,48
+Kolkata,BUR,221,Chicken Frankfurter with Paprika & Cheese,Cold Cuts,2023-10-17,48.0,48
+Chennai,PLK,78,Mutton Kosha,Ready to Cook,2022-11-10,48.0,48
+Chennai,PLK,78,Chicken Lyoner with Super Seeds,Cold Cuts,2023-01-31,0.0,48
+NCR,MDL,47,Lamb Biryani Cut (Raan),Lamb & Goat,2022-10-28,0.0,48
+Pune,DPD,420,Crispy Chicken Supreme,Ready to Cook,2023-01-03,0.0,48
+Mumbai,WDL,100,Hyderabadi Mutton Shami Kebab,Kebab & Tandoor,2023-08-07,0.0,48
+NCR,NEX,132,Chicken Sausage with Thyme & Cheese,Cold Cuts,2022-12-07,48.0,48
+Mumbai,CHM,81,Crab,Fish & Seafood,2023-04-05,0.0,48
+Bangalore,Indiranagar,4,Awadhi Chicken Biryani,Ready to Cook,2022-12-26,48.0,48
+Bangalore,JPN,6,Goat Ribs and Chops,Lamb & Goat,2023-06-27,46.0,47
+Bangalore,KRP,108,Catla - Bengali Cut (Without Head),Fish & Seafood,2023-09-26,0.0,48
+Pune,KOTH,102,Goat Ribs and Chops,Lamb & Goat,2023-07-15,0.0,48
+Hyderabad,Himayatnagar,25,Kolkata Chicken Biryani - Mini,Ready to Cook,2023-12-04,0.0,48
+NCR,SUN,20,Crispy Prawns,Ready to Cook,2022-09-11,22.0,48
+Chennai,POR,137,Chunky Shawarma Chicken Spread (Single Serve),Spreads,2023-02-27,48.0,48
+NCR,NGC,125,Mahi Mahi Cubes,Fish & Seafood,2023-01-03,0.0,48
+Pune,KNDH,88,Lamb Mince,Lamb & Goat,2023-02-28,0.0,48
+Mumbai,CHM,81,Chicken Thigh Boneless,Chicken,2023-02-05,48.0,48
+Mumbai,BLP,504,Bombay Duck. Whole,Fish & Seafood,2023-03-05,48.0,48
+Mumbai,ADW,62,Sardine Whole - Cleaned & Gutted,Fish & Seafood,2023-04-30,48.0,48
+Mumbai,BLP,504,Sea Water Prawns Medium,Fish & Seafood,2023-11-06,48.0,48
+Agra,LIN,545,Prawns - Cleaned and Deveined,Fish & Seafood,2023-09-20,34.0,48
+Mumbai,MUL,80,Rohu - Bengali Cut (Without Head),Fish & Seafood,2023-01-24,48.0,48
+Hyderabad,ECL,377,Tilapia - Fillet,Fish & Seafood,2023-09-25,0.0,48
+Chennai,TNGR,95,Fish in Thai Sweet Chilli Sauce,Ready to Cook,2022-12-26,0.0,48
+Kolkata,LKT,541,Goan Prawn Curry,Ready to Cook,2022-09-17,48.0,48
+Mumbai,KHR,66,Hyderabadi Mutton Shami Kebab,Kebab & Tandoor,2022-12-04,34.0,48
+Mumbai,MLD,79,Classic Lamb Burger Patty,Ready to Cook,2023-10-11,0.0,48
+Pune,PIMCHI,103,Prawns Koliwada (Deep Fry),Ready to Cook,2022-11-05,48.0,48
+Pune,BNR,57,Chunky Butter Chicken Spread,Spreads,2023-03-15,33.0,33
+Bangalore,TUB,1,Chicken 65_RTC,Ready to Cook,2023-12-06,48.0,48
+Mumbai,POW,64,Mutton Korma,Ready to Cook,2023-12-29,40.0,48
+NCR,GRN,129,Chicken Leg Curry Cut,Chicken,2022-12-18,48.0,48
+Hyderabad,Himayatnagar,25,Catla - Bengali Cut (Without Head),Fish & Seafood,2023-09-30,48.0,48
+NCR,WDH,31,Smoked Chicken Wings,Ready to Cook,2022-11-18,0.0,40
+Bangalore,KDB,130,Prawns - Cleaned and Deveined,Fish & Seafood,2023-08-21,39.0,48
+Bangalore,Indiranagar,4,Chicken Cutlet (Bengali Style),Ready to Cook,2023-08-15,48.0,48
+Chennai,TBM,112,Chicken Boneless Tikka Cut - Small Pack,Chicken,2022-12-05,48.0,48
+Mumbai,MUL,80,Chicken & Cranberry Sausage,Cold Cuts,2023-06-09,0.0,48
+Chennai,PONDI,204,Mahi Mahi Cubes,Fish & Seafood,2022-10-25,0.0,48
+Chennai,VDP,74,Brown Eggs,Eggs,2022-10-13,48.0,48
+Chennai,MGR,73,Tangdi Kebab,Kebab & Tandoor,2023-08-31,48.0,48

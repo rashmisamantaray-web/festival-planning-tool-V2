@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+pandas
+numpy
+pyreadr
+openpyxl
+gspread
+oauth2client
+gspread-dataframe
+pyyaml
+pyarrow>=19.0.1
+python-multipart

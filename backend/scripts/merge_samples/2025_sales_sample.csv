@@ -1,0 +1,101 @@
+city_name,hub_id,hub_name,hub_type,product_id,product_name,category,sub_category,order_dt,process_dt,corrected_sales,sales,revenue,product_discount,coupon_discount,instant_discount,licious_cash,licious_cashp,cgst,sgst
+Mumbai,79,MLD,0.0,pr_57234c427648b,Chicken Curry Cut (Large - 8 to 10 Pieces),Chicken,Chicken,2026-01-09,2026-01-09,36.0,36.0,7451.5599999999995,532.56,89.0,,152.0933240933241,59.32270732270732,0.0,0.0
+NCR,33,NOI,0.0,pr_4cyjya5vxs7,Chunky Butter Chicken Spread (Single Serve),Spreads,Spreads,2025-12-15,2025-12-15,1.0,1.0,45.0,2.0,0.0,,0.0,0.0,1.0199999809265137,1.0199999809265137
+Surat,1085,VDR,0.0,pr_ncplaqh1yxx,Original Tandoori Chicken Masala,Masalas,Masalas,2025-01-12,2025-01-12,2.0,2.0,110.0,6.0,0.0,0.0,3.73729863692689,0.0,2.4800000190734863,2.4800000190734863
+Pune,102,KOTH,0.0,pr_cckksu32sb1,Crispy Chicken Supreme,Ready to Cook,Ready to Cook,2025-04-10,2025-04-10,1.0,1.0,199.0,0.0,0.0,,0.0,0.0,10.65999984741211,10.65999984741211
+,2157,,0.0,pr_e7uk0s4evo8,Classic Eggs - Pack Of 30,Eggs,Eggs,2025-06-30,2025-06-30,4.0,4.0,1196.0,0.0,9.0,,0.0,0.0,0.0,0.0
+Mumbai,154,GDB,0.0,pr_57234c427648b,Chicken Curry Cut (Large - 8 to 10 Pieces),Chicken,Chicken,2025-08-16,2025-08-16,4.0,4.0,804.0,64.0,0.0,,7.442528735632184,0.0,0.0,0.0
+Mumbai,2440,SEP,0.0,pr_eq3lbgf566f,Chicken Keema - 250 gms (Mini Pack),Chicken,Chicken,2025-06-19,2025-06-19,6.0,6.0,1194.0,0.0,40.0,,24.619427491341792,0.0,0.0,0.0
+Pune,2465,VIM,0.0,pr_3rkjm1v51mm,Basa Cubes (Boneless),Fish & Seafood,Fresh Water,2025-06-02,2025-06-02,2.0,2.0,938.0,0.0,0.0,,23.511873350923484,0.0,0.0,0.0
+NCR,2431,HKM,0.0,pr_8dukz8nkfto,Goat Mince 225g,Lamb & Goat,Lamb & Goat,2025-11-05,2025-11-05,1.0,1.0,359.0,108.0,14.0,,0.0,0.0,0.0,0.0
+NCR,52,SPC,0.0,pr_fhijtzoq66l,Chicken Mince - Keema,Chicken,Chicken,2026-02-25,2026-02-25,6.0,6.0,2154.0,179.5,26.0,,18.513064133016627,0.0,0.0,0.0
+Mumbai,65,VSH,0.0,pr_1mtleo11cz7,Chicken Seekh Kebab,Kebab & Tandoor,Kebab & Tandoor,2025-07-07,2025-07-07,7.0,7.0,1393.0,140.0,0.0,,32.08213846784105,67.50081933633757,67.1300048828125,67.1300048828125
+Mumbai,81,CHM,0.0,pr_l6dll24z664,Mutton Liver (Small pack),Lamb & Goat,Lamb & Goat,2025-10-04,2025-10-05,3.0,3.0,537.0,0.0,0.0,,4.969734867433717,0.0,0.0,0.0
+Kolkata,219,NWT,0.0,pr_576360a8b87f1,Mutton Liver Chunks,Lamb & Goat,Lamb & Goat,2025-06-23,2025-06-23,2.0,2.0,716.1199951171875,36.0,0.0,,0.0,0.0,0.0,0.0
+Bangalore,10,HOODI,0.0,pr_okil7rg4jj5,Premium Goat Curry Cut,Lamb & Goat,Lamb & Goat,2025-07-11,2025-07-12,6.0,6.0,3992.530029296875,198.0,0.0,,55.63120637126175,0.0,0.0,0.0
+Hyderabad,49,MNK,0.0,pr_3rkjm1v51mm,Basa Cubes (Boneless),Fish & Seafood,Fresh Water,2025-07-22,2025-07-23,5.0,5.0,2325.0,0.0,0.0,,28.477034649476227,0.0,0.0,0.0
+Pune,2479,KTH,0.0,pr_8yyllnac44v,Classic Chicken Biryani Cut,Chicken,Chicken,2026-01-08,2026-01-08,1.0,1.0,219.0,0.0,0.0,,0.0,0.0,0.0,0.0
+NCR,2448,LJN,0.0,pr_inuk3ilznwg,Purani Dilli ki Mutton Seekh Kebab,Kebab & Tandoor,Kebab & Tandoor,2025-08-06,2025-08-06,1.0,1.0,419.00001220703126,83.8,0.0,,6.493163408750605,0.0,17.959999084472656,17.959999084472656
+Mumbai,81,CHM,0.0,pr_k3yk8iu1vgp,Freshwater Rohu Small - Bengali Cut No Head,Fish & Seafood,Fresh Water,2025-05-20,2025-05-21,4.0,4.0,1180.0,0.0,0.0,,18.04657629475148,0.0,0.0,0.0
+NCR,31,WDH,0.0,pr_9q8kwkfr2sb,Mini- Peppery Chicken Salami,Cold Cuts,Cold Cuts,2025-03-28,2025-03-28,2.0,2.0,398.0,32.0,21.0,0.0,11.00088573959256,0.0,19.43000030517578,19.43000030517578
+Bangalore,2415,KGP,0.0,pr_b24lhkruo9h,Rohu Egg,Fish & Seafood,Fresh Water,2025-09-12,2025-09-13,1.0,1.0,199.0,50.0,0.0,,0.0,0.0,0.0,0.0
+NCR,27,DWK,0.0,pr_nqpkziiqt11,White Prawns (40-60C/Medium) - Cleaned & Deveined,Fish & Seafood,Prawn,2025-08-22,2025-08-22,7.0,7.0,3339.0,617.0,68.0,,11.297314996725605,86.90242305173543,0.0,0.0
+Bangalore,2432,BNS,0.0,pr_ejejbf09h51,Chicken Lollipop - 10 Pieces,Chicken,Chicken,2025-06-16,2025-06-16,1.0,1.0,185.0,0.0,0.0,,0.5082417582417582,0.0,0.0,0.0
+NCR,157,SMS,0.0,pr_ffojtznsds8,Chicken Boneless - Cubes,Chicken,Chicken,2025-03-06,2025-03-07,1.0,1.0,339.0,0.0,0.0,0.0,13.649137222678718,0.0,0.0,0.0
+Hyderabad,49,MNK,0.0,pr_fhijtzoq66l,Chicken Mince - Keema,Chicken,Chicken,2025-05-07,2025-05-07,16.0,16.0,4364.0,0.0,0.0,,229.0038087177317,92.34024545069826,0.0,0.0
+Chennai,1899,Padur,2.0,pr_1lsd6u9mj,Chicken Breast Boneless (CP),Chicken,Chicken,2025-10-23,2025-10-23,3.0,3.0,676.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+NCR,19,ECS,0.0,pr_9q8kwkfr2sb,Mini- Peppery Chicken Salami,Cold Cuts,Cold Cuts,2026-02-19,2026-02-19,2.0,2.0,370.0,114.0,0.0,,0.0,0.0,6.099999904632568,6.099999904632568
+Hyderabad,377,ECL,0.0,pr_fcvjzwprobb,BBQ Chicken Wings,Ready to Cook,Ready to Cook,2026-02-06,2026-02-06,4.0,4.0,795.94,43.94,18.0,,12.996095859486354,0.0,17.48000144958496,17.48000144958496
+Bangalore,130,KDB,0.0,pr_57234c427648b,Chicken Curry Cut (Large - 8 to 10 Pieces),Chicken,Chicken,2025-04-29,2025-04-30,5.0,5.0,975.0,80.0,0.0,,69.38609302380215,0.0,0.0,0.0
+NCR,19,ECS,0.0,pr_ov2jkm8fgq3,Achari fish tikka,Ready to Cook,Ready to Cook,2025-05-24,2025-05-24,2.0,2.0,690.0,0.0,0.0,,2.916862376702677,0.0,36.959999084472656,36.959999084472656
+NCR,19,ECS,0.0,pr_599441c9064f2,Freshwater Rohu Large - Bengali Cut No Head,Fish & Seafood,Fresh Water,2025-09-17,2025-09-17,3.0,3.0,1017.0,0.0,0.0,,0.0,0.0,0.0,0.0
+Mumbai,2554,OFLTSTG,0.0,pr_auL2R8czJbK5,,,,2025-12-27,2025-12-27,1.0,1.0,473.0400085449219,0.0,0.0,,0.0,0.0,11.260000228881836,11.260000228881836
+Pune,2477,KHD,0.0,pr_599441c9064f2,Freshwater Rohu Large - Bengali Cut No Head,Fish & Seafood,Fresh Water,2025-10-30,2025-10-31,1.0,1.0,339.0,0.0,34.0,,0.0,0.0,0.0,0.0
+NCR,19,ECS,0.0,pr_8hbl2ej264p,Classic Chicken Burger Patty,Ready to Cook,Burger,2025-02-13,2025-02-13,1.0,1.0,169.0,0.0,0.0,0.0,5.988188976377953,0.0,9.050000190734863,9.050000190734863
+Chennai,2441,VLC,0.0,pr_pJCz1oHT4KBC,Trevally Small - Steaks,Fish & Seafood,Sea water,2026-03-01,2026-03-01,2.0,2.0,1298.0,0.0,0.0,,31.113706207744315,79.77873386601107,0.0,0.0
+NCR,27,DWK,0.0,pr_6j4jhm2si2y,Rohu Head (1 Nos),Fish & Seafood,Fresh Water,2025-04-12,2025-04-13,1.0,1.0,49.0,0.0,0.0,,15.466480446927374,0.0,0.0,0.0
+Pune,2028,Ravet,2.0,pr_1ls8lg7jb,Chicken Curry Cut - Small Pieces (CP),Chicken,Chicken,2025-10-15,2025-10-15,30.0,30.0,4157.42,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Hyderabad,375,MDP,0.0,pr_8yyllnac44v,Classic Chicken Biryani Cut,Chicken,Chicken,2025-07-12,2025-07-12,1.0,1.0,199.0,0.0,0.0,,0.0,0.0,0.0,0.0
+Chennai,2481,ADR,0.0,pr_11xkpyzoibh,"Sea White Prawns 40C - 60C- Cleaned & Deveined, No Tail",Fish & Seafood,Prawn,2026-01-03,2026-01-04,2.0,2.0,1450.0,140.0,0.0,,16.080196399345336,0.0,0.0,0.0
+Mumbai,81,CHM,0.0,pr_590f2bc508b4a,Classic Eggs - Pack Of 6,Eggs,Eggs,2026-02-16,2026-02-16,10.0,10.0,930.0,155.0,18.0,,9.63484748738205,0.0,0.0,0.0
+Hyderabad,16,Kukatpally,0.0,pr_8izjlf6xn0k,Basa Fillet - (Platinum Grade),Fish & Seafood,Fresh Water,2025-05-04,2025-05-04,1.0,1.0,515.0,0.0,0.0,,8.983772819472616,0.0,0.0,0.0
+Bangalore,8,KOM,0.0,pr_59a6c80d1840d,Chicken Wings with Skin,Chicken,Chicken,2025-01-25,2025-01-26,4.0,4.0,676.0,0.0,0.0,0.0,11.445869676757312,0.0,0.0,0.0
+Hyderabad,49,MNK,0.0,pr_fhijtgw0ctk,Chicken Soup Bones - (Classic),Ready to Cook,Ready to Cook,2025-08-26,2025-08-26,3.0,3.0,327.0,0.0,0.0,,0.8612818261633012,0.0,17.520000457763672,17.520000457763672
+NCR,31,WDH,0.0,pr_ncplaqh1yxx,Original Tandoori Chicken Masala,Masalas,Masalas,2025-07-13,2025-07-13,1.0,1.0,55.0,3.0,0.0,,0.0,0.0,1.2400000095367432,1.2400000095367432
+Bangalore,4,Indiranagar,0.0,pr_inuk3ilznwg,Purani Dilli ki Mutton Seekh Kebab,Kebab & Tandoor,Kebab & Tandoor,2026-01-10,2026-01-10,1.0,1.0,429.0,9.0,0.0,,32.21995926680244,14.256619144602851,10.0,10.0
+Hyderabad,25,Himayatnagar,0.0,pr_fmhkgtbdprx,Chicken Breast Boneless - Large Pack,Chicken,Chicken,2025-07-08,2025-07-08,5.0,5.0,2975.0,170.0,0.0,,76.16883116883118,0.0,0.0,0.0
+Mumbai,66,KHR,0.0,pr_nm3h6icau,Chicken - All Purpose Chunks,Chicken,Chicken,2025-11-07,2025-11-08,1.0,1.0,109.0,0.0,0.0,,0.0,0.0,0.0,0.0
+Mumbai,98,BOR,0.0,pr_8dukz8nkfto,Goat Mince 225g,Lamb & Goat,Lamb & Goat,2025-03-02,2025-03-03,2.0,2.0,670.0,0.0,0.0,0.0,69.6103896103896,72.5108225108225,0.0,0.0
+Mumbai,80,MUL,0.0,pr_fhijtgw0ctk,Chicken Soup Bones - (Classic),Ready to Cook,Ready to Cook,2025-05-07,2025-05-07,13.0,13.0,1287.0,130.0,0.0,,28.033581296493093,0.0,62.470001220703125,62.470001220703125
+Mumbai,65,VSH,0.0,pr_fhijtgw0ctk,Chicken Soup Bones - (Classic),Ready to Cook,Ready to Cook,2025-04-13,2025-04-13,10.0,10.0,750.0,70.0,0.0,,26.107501476668634,0.0,36.439998626708984,36.439998626708984
+Pune,458,Hadapsar,2.0,pr_1lsd6u9mj,Chicken Breast Boneless (CP),Chicken,Chicken,2025-04-30,2025-04-30,10.0,10.0,2419.01,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Kolkata,2467,GHT,0.0,pr_6j4jhlmxsk1,Freshwater Rohu - Bengali Cut (Without Head),Fish & Seafood,Fresh Water,2025-07-28,2025-07-28,3.0,3.0,777.0,0.0,0.0,,0.0,0.0,0.0,0.0
+Bangalore,134,BEG,0.0,pr_8yyllnac44v,Classic Chicken Biryani Cut,Chicken,Chicken,2025-10-11,2025-10-11,9.0,9.0,1881.0,0.0,42.0,,262.58343018429355,0.0,0.0,0.0
+Mumbai,154,GDB,0.0,pr_4q4jya5vg2a,Chunky Shawarma Chicken Spread (Single Serve),Spreads,Spreads,2025-11-30,2025-11-30,1.0,1.0,45.0,2.0,0.0,,0.0,0.0,1.0199999809265137,1.0199999809265137
+Mumbai,64,POW,0.0,pr_888lkv1mjjg,Roopchand Medium Fry Cut,Fish & Seafood,Fresh Water,2025-08-26,2025-08-27,1.0,1.0,315.0,16.0,0.0,,29.0,0.0,0.0,0.0
+Mumbai,2399,MIR,0.0,pr_46xl45e268j,Classic Smoked Chicken Frankfurter,Cold Cuts,Cold Cuts,2025-09-27,2025-09-27,2.0,2.0,518.0,52.0,47.0,,20.63731343283582,0.0,9.979999542236328,9.979999542236328
+Bangalore,10,HOODI,0.0,pr_590f2f3b17860,Cage Free Country Eggs,Eggs,Eggs,2025-08-12,2025-08-12,9.0,9.0,945.0,72.0,0.0,,12.858495528669122,0.0,0.0,0.0
+Hyderabad,24,Trimulgherry,0.0,pr_o2hlatbd0sy,Chicken Milagu Pirattal (Pepper Chicken),Ready to Cook,Ready to Cook,2025-06-20,2025-06-21,1.0,1.0,289.0,29.0,15.0,,0.0,0.0,13.119999885559082,13.119999885559082
+NCR,30,EDH,0.0,pr_av4kgtb3l1h,Chicken Curry Cut Small - Large Pack,Chicken,Chicken,2025-11-23,2025-11-24,2.0,2.0,840.0,84.0,66.0,,17.271589486858574,43.178973717146434,0.0,0.0
+Bangalore,2631,OFLYEL,0.0,pr_aEw1GxNdFkH5,,,,2026-01-08,2026-01-08,1.0,1.0,1233.77001953125,0.0,0.0,,0.0,0.0,0.0,0.0
+Mumbai,79,MLD,0.0,pr_iBffC1Bf8ZQ9,Premium Lamb Curry Cut (Small Pieces),Lamb & Goat,Lamb & Goat,2026-01-23,2026-01-23,7.0,7.0,4543.0,1005.5,0.0,,36.39219158445063,59.659330466312504,0.0,0.0
+Pune,88,KNDH,0.0,pr_fhijtzoq66l,Chicken Mince - Keema,Chicken,Chicken,2025-10-06,2025-10-07,2.0,2.0,590.0,0.0,0.0,,0.0,0.0,0.0,0.0
+Mumbai,79,MLD,0.0,pr_57ac8c42ee432,Country Chicken - Curry Cut,Chicken,Chicken,2025-12-21,2025-12-21,4.0,4.0,1556.0,0.0,0.0,,98.97765042979943,47.2595988538682,0.0,0.0
+Mumbai,89,KHGR,0.0,pr_jxjliso7d55,Lamb Mince - 225g,Lamb & Goat,Lamb & Goat,2026-02-08,2026-02-09,1.0,1.0,345.0,0.0,0.0,,0.0,0.0,0.0,0.0
+Chennai,77,ECR,0.0,pr_8smkrx2ly4g,Half - Creamy Afghani Chicken,Ready to Cook,Ready to Cook,2025-01-23,2025-01-23,2.0,2.0,406.05999755859375,40.0,0.0,0.0,8.125437720187795,0.0,20.68000030517578,20.68000030517578
+Bangalore,7,BEL,0.0,pr_n22llde3kfl,Kerala Mutton Stew,Ready to Cook,Ready to Cook,2025-01-28,2025-01-28,1.0,1.0,449.0,0.0,0.0,0.0,56.482484076433124,0.0,24.8799991607666,24.8799991607666
+NCR,51,FDB,0.0,pr_590f2bc508b4a,Classic Eggs - Pack Of 6,Eggs,Eggs,2025-01-25,2025-01-25,6.0,6.0,558.0,67.0,37.0,0.0,12.895234637165965,0.0,0.0,0.0
+Bangalore,2489,VTH,0.0,pr_DcgfDgYWDWam,Freshwater Prawns (Medium Sized) - Whole,Fish & Seafood,Prawn,2025-11-16,2025-11-16,1.0,1.0,325.0,0.0,0.0,,0.0,0.0,0.0,0.0
+Mumbai,62,ADW,0.0,pr_inuk3ilznwg,Purani Dilli ki Mutton Seekh Kebab,Kebab & Tandoor,Kebab & Tandoor,2026-02-15,2026-02-15,1.0,1.0,429.0,13.0,39.0,,0.0,9.612442631310556,8.979999542236328,8.979999542236328
+Mumbai,2469,THA,0.0,pr_4lal483r2ks,Chicken Drumstick (6 pieces),Chicken,Chicken,2025-08-29,2025-08-29,26.0,26.0,8814.0,528.0,50.0,,89.04022183973605,49.09694475275165,0.0,0.0
+Bangalore,134,BEG,0.0,pr_6j4jhlmzwle,Freshwater Catla - Bengali Cut (Without Head),Fish & Seafood,Fresh Water,2025-10-01,2025-10-02,2.0,2.0,818.0,24.0,0.0,,80.78725590955807,0.0,0.0,0.0
+Chennai,78,PLK,0.0,pr_590f2f3b17860,Cage Free Country Eggs,Eggs,Eggs,2025-09-18,2025-09-18,2.0,2.0,210.0,16.0,0.0,,0.0,0.0,0.0,0.0
+Pune,1519,SayajiHotel,2.0,pr_1ls8lh3t9,Chicken Curry Cut - Large Pieces (CP),Chicken,Chicken,2025-11-29,2025-11-29,1.0,1.0,143.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Kolkata,541,LKT,0.0,pr_mmfjrt7mcyl,Classic Chicken Nuremberger,Cold Cuts,Cold Cuts,2025-03-20,2025-03-21,1.0,1.0,299.0,24.0,52.0,,21.580645161290324,31.276297335203367,11.949999809265137,11.949999809265137
+Bangalore,2415,KGP,0.0,pr_58d3ae77dcce0,Mutton Soup Bones,Lamb & Goat,Lamb & Goat,2025-07-26,2025-07-26,3.0,3.0,1010.969970703125,0.0,35.0,,0.0,0.0,0.0,0.0
+Pune,57,BNR,0.0,pr_IDvZ5vmxj0qi,Heat & Eat Chicken Malai Tikka,Heat & Eat,Heat & Eat,2026-02-19,2026-02-19,4.0,4.0,1035.98,149.98,42.0,,36.21418439716312,0.0,20.09000015258789,20.09000015258789
+Bangalore,7,BEL,0.0,pr_fhijtgw0ctk,Chicken Soup Bones - (Classic),Ready to Cook,Ready to Cook,2025-09-24,2025-09-25,2.0,2.0,198.0,0.0,0.0,,5.777188328912467,0.0,4.710000038146973,4.710000038146973
+Mumbai,504,BLP,0.0,pr_6fxkqja2hs2,"Tiger Prawns (20C - 30C) - Cleaned & Deveined, with Tail",Fish & Seafood,Prawn,2025-04-12,2025-04-12,1.0,1.0,650.0,75.0,0.0,,21.31885593220339,0.0,0.0,0.0
+NCR,129,GRN,0.0,pr_TZOH4fqAtVjP,Loaded  Chicken - 20pc,Momos,Momos,2025-12-23,2025-12-23,2.0,2.0,798.0,16.0,78.0,,0.0,0.0,16.760000228881836,16.760000228881836
+Bangalore,10,HOODI,0.0,pr_qjOqXTgRZ9kh,Mutton Fat,Lamb & Goat,Lamb & Goat,2025-05-02,2025-05-02,1.0,1.0,69.0,0.0,0.0,,1.2220708446866484,0.0,0.0,0.0
+Bangalore,134,BEG,0.0,pr_596601367dd0d,Sardine (Whole - Cleaned & Gutted),Fish & Seafood,Sea water,2025-11-11,2025-11-12,1.0,1.0,819.0,238.0,0.0,,0.0,0.0,0.0,0.0
+Jaipur,2256,LALARPURA,2.0,pr_4q4jya5rtvg,Chunky Shawarma Chicken Spread,Spreads,Spreads,2025-10-03,2025-10-03,1.0,1.0,163.02,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Hyderabad,50,CDN,0.0,pr_jxjliso7d55,Lamb Mince - 225g,Lamb & Goat,Lamb & Goat,2025-01-17,2025-01-18,4.0,4.0,1636.0,0.0,14.0,0.0,12.392808988764045,0.0,0.0,0.0
+Coimbatore,263,PDVA,0.0,pr_7XRxjps2Pvp7,Catla - Bengali Cut w/o Head,Fish & Seafood,Fresh Water,2025-09-24,2025-09-24,1.0,1.0,330.86000061035156,169.5,0.0,,22.793301914858578,0.0,0.0,0.0
+Hyderabad,2463,MSB,0.0,pr_fTzbYZVXiSzn,White Pomfret Medium - Whole Cleaned Gutted (Pack of 2),Fish & Seafood,Sea water,2026-03-15,2026-03-16,1.0,1.0,1445.0,146.0,0.0,,0.0,0.0,0.0,0.0
+Hyderabad,2459,MYP,0.0,pr_888lkv1kidq,Indian Salmon Medium - Fry Cut,Fish & Seafood,Sea water,2025-07-03,2025-07-03,1.0,1.0,1059.0,529.5,42.0,,7.640400522420548,0.0,0.0,0.0
+Mumbai,100,WDL,0.0,pr_AmDzw2YWWu3J,Heat & Eat Chicken Tikka,Heat & Eat,Heat & Eat,2025-09-17,2025-09-17,1.0,1.0,279.0,22.0,0.0,,5.444915254237288,0.0,13.770000457763672,13.770000457763672
+NCR,30,EDH,0.0,pr_ifBGAaHWeInk,Crunchy Chicken Nuggets,Ready to Cook,Ready to Cook,2026-02-23,2026-02-23,2.0,2.0,458.0,64.0,24.0,,16.59351145038168,0.0,8.809999465942383,8.809999465942383
+Chennai,113,NVL,0.0,pr_fa5lbgescmx,Premium Lamb - Curry Cut,Lamb & Goat,Lamb & Goat,2026-01-01,2026-01-01,1.0,1.0,649.0,0.0,75.0,,0.0,0.0,0.0,0.0
+Mumbai,61,WRL,0.0,pr_3lql5gg03d3,Classic Chicken Lyoner,Cold Cuts,Cold Cuts,2025-09-17,2025-09-17,1.0,1.0,279.0,28.0,0.0,,7.62917933130699,0.0,13.449999809265137,13.449999809265137
+Mumbai,2440,SEP,0.0,pr_dq5ku83oydt,Tilapia Medium - Fillet,Fish & Seafood,Fresh Water,2025-10-18,2025-10-19,2.0,2.0,401.97998046875,0.0,0.0,,0.0,0.0,0.0,0.0
+Hyderabad,209,ATP,0.0,pr_4lal483r2ks,Chicken Drumstick (6 pieces),Chicken,Chicken,2025-02-28,2025-02-28,7.0,7.0,2163.0,226.0,52.0,0.0,68.86576040781648,0.0,0.0,0.0
+Bangalore,4,Indiranagar,0.0,pr_inpkaxvya2u,Sea Bass Medium - Boneless Cubes,Fish & Seafood,Fresh Water,2025-10-18,2025-10-18,1.0,1.0,805.0,0.0,0.0,,13.48907678021602,0.0,0.0,0.0
+NCR,48,GZB,0.0,pr_6G4RRcA0oGzk,Zesty Garlic Fish,Ready to Cook,Ready to Cook,2026-03-17,2026-03-18,1.0,1.0,299.0,87.0,29.0,,0.0,0.0,4.360000133514404,4.360000133514404
+Mumbai,80,MUL,0.0,pr_e7uk0s4evo8,Classic Eggs - Pack Of 30,Eggs,Eggs,2025-08-30,2025-08-30,6.0,6.0,2658.0,204.0,0.0,,70.90318099736075,0.0,0.0,0.0
+Pune,58,WKD,0.0,pr_fa5lbgescmx,Premium Lamb - Curry Cut,Lamb & Goat,Lamb & Goat,2025-03-21,2025-03-21,7.0,7.0,4543.0,260.0,95.0,0.0,57.344107744107745,0.0,0.0,0.0
+NCR,2431,HKM,0.0,pr_c61k6uqaf5h,Chicken Breast - Boneless,Chicken,Chicken,2025-10-21,2025-10-22,9.0,9.0,3285.0,144.0,35.0,,46.01619276227342,0.0,0.0,0.0
+Surat,1057,SAT,0.0,pr_3rkjm1v51mm,Basa Cubes (Boneless),Fish & Seafood,Fresh Water,2025-02-21,2025-02-23,2.0,2.0,898.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Mumbai,62,ADW,0.0,pr_hcsl45e3j16,Chicken Frankfurter with Paprika & Cheese,Cold Cuts,Cold Cuts,2025-05-30,2025-05-30,1.0,1.0,299.0,24.0,33.0,,0.0,0.0,12.960000038146973,12.960000038146973
+Visakhapatnam,2452,Kurmannapalem,2.0,pr_1ltoi8qxh,Licious Classic Eggs Pack of 6,Eggs,Eggs,2025-06-02,2025-06-02,7.0,7.0,420.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Bangalore,7,BEL,0.0,pr_6j4jhm2t05x,Catla Head (1 Nos),Fish & Seafood,Fresh Water,2025-10-10,2025-10-11,1.0,1.0,99.0,34.0,0.0,,1.0,0.0,0.0,0.0

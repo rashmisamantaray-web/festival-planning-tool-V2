@@ -1,0 +1,56 @@
+MERGE SAMPLE SUMMARY
+============================================================
+
+Join keys expected:
+  Sales+Forecast: ['city_name', 'hub_name', 'process_dt', 'product_id']
+  Sales+Avl:     city_name, hub_name, process_dt(Sales)=av_dt(Avl), sku_group
+
+
+--- 2025 ---
+  sales: 7,701,478 rows, 20 cols
+    city_name: OK
+    hub_name: OK
+    process_dt: OK
+    product_id: OK
+  avl: 8,080,352 rows, 8 cols
+    city_name: OK
+    hub_name: OK
+    av_dt: OK
+    sku_group: OK
+  forecast: 7,443,592 rows, 50 cols
+    city_name: OK
+    hub_name: OK
+    process_dt: MISSING
+    product_id: OK
+    (Forecast uses 'date' -> process_dt)
+
+--- 2024 ---
+  sales: 5,239,545 rows, 20 cols
+    city_name: OK
+    hub_name: OK
+    process_dt: OK
+    product_id: OK
+  avl: 5,022,732 rows, 8 cols
+    city_name: OK
+    hub_name: OK
+    av_dt: OK
+    sku_group: OK
+  forecast: ERROR - Unable to allocate 984. MiB for an array with shape (19, 6787891) and data type float64
+
+--- 2023 ---
+  sales: 6,194,366 rows, 20 cols
+    city_name: OK
+    hub_name: OK
+    process_dt: OK
+    product_id: OK
+  avl: 9,064,227 rows, 8 cols
+    city_name: OK
+    hub_name: OK
+    av_dt: OK
+    sku_group: OK
+  forecast: 6,884,716 rows, 52 cols
+    city_name: OK
+    hub_name: OK
+    process_dt: MISSING
+    product_id: OK
+    (Forecast uses 'date' -> process_dt)
