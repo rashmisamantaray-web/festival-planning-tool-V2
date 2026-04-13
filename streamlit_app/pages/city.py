@@ -8,7 +8,7 @@ import streamlit as st
 
 import api_client
 from constants import MAJOR_CITIES
-from helpers import key_label, pct, merge_response, build_formula_columns, resolve_formula
+from helpers import key_label, pct, merge_response, build_formula_columns, resolve_formula, toggle_minor
 
 
 # ── Trend chart ──────────────────────────────────────────────────────
@@ -133,8 +133,7 @@ def render_city(city_data: dict, trend_data: dict | None):
                     _apply_formula_to_sublevels()
         with btn_cols[1]:
             label = "Hide Minor Cities" if st.session_state.show_minor else "Show Minor Cities"
-            from app import _toggle_minor
-            st.button(label, key="toggle_minor_city", on_click=_toggle_minor)
+            st.button(label, key="toggle_minor_city", on_click=toggle_minor)
 
     major = [r for r in records if r["city_name"] in MAJOR_CITIES]
     minor = [r for r in records if r["city_name"] not in MAJOR_CITIES]

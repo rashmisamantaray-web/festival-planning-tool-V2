@@ -10,7 +10,7 @@ import pandas as pd
 import streamlit as st
 
 from constants import MAJOR_CITIES
-from helpers import pct
+from helpers import pct, toggle_minor
 
 
 def _is_unmapped(rec: dict) -> bool:
@@ -59,8 +59,7 @@ def render_hub_cut(level_data: dict):
                     st.rerun()
         with btn_cols[2]:
             label = "Hide Minor Cities" if st.session_state.show_minor else "Show Minor Cities"
-            from app import _toggle_minor
-            st.button(label, key="toggle_minor_l5", on_click=_toggle_minor)
+            st.button(label, key="toggle_minor_l5", on_click=toggle_minor)
 
     # ── Tables ───────────────────────────────────────────────────────
     st.markdown("**Major Cities**")

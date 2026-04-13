@@ -76,32 +76,6 @@ def _do_compute():
         st.session_state.data = None
 
 
-def _toggle_minor():
-    """Toggle minor cities visibility; re-compute with include_minor on first show."""
-    if st.session_state.show_minor:
-        st.session_state.show_minor = False
-        return
-
-    if st.session_state.minor_data_loaded:
-        st.session_state.show_minor = True
-        return
-
-    if not st.session_state.last_current:
-        return
-    try:
-        result = api_client.compute(
-            st.session_state.last_current,
-            st.session_state.last_refs,
-            include_minor=True,
-        )
-        st.session_state.data = result
-        st.session_state.store_key = result.get("store_key", "")
-        st.session_state.show_minor = True
-        st.session_state.minor_data_loaded = True
-    except Exception as e:
-        st.session_state.error = f"Failed to load minor cities: {e}"
-
-
 # ── Header ───────────────────────────────────────────────────────────
 hdr_left, hdr_right = st.columns([8, 2])
 with hdr_left:

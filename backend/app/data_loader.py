@@ -39,8 +39,10 @@ import pyreadr
 from oauth2client.service_account import ServiceAccountCredentials
 
 from app.config import (
+    FNS_SUBCAT_RE,
     GSHEET_AVL_FLAG,
     GSHEET_CREDENTIALS_PATH,
+    GSHEET_FNS_BUCKET,
     GSHEET_HUB_MAPPING,
     GSHEET_P_MASTER,
     GSHEET_SCOPES,
@@ -166,6 +168,24 @@ def _load_avl_flag() -> pd.DataFrame:
         df = _read_gsheet(GSHEET_AVL_FLAG["url"], GSHEET_AVL_FLAG["worksheet"])
         _cache["avl_flag"] = df[["product_id", "Product Name", "Avl Flag"]]
     return _cache["avl_flag"]
+
+
+def _load_fns_bucket() -> pd.DataFrame:
+    """Load FnS ASP Bucket sheet → columns: product_id, Bucket.
+
+    Maps Fish & Seafood product IDs to their ASP price bucket.
+    Used to replace Cut Classification with Bucket for FnS subcategories.
+    """
+    if "fns_bucket" not in _cache:
+        df = _read_gsheet(GSHEET_FNS_BUCKET["url"], GSHEET_FNS_BUCKET["worksheet"])
+        df.columns = df.columns.str.strip()
+        df = df.rename(columns={"product_id": "product_id", "Bucket": "Bucket"})
+        df["product_id"] = df["product_id"].astype(str).str.strip()
+        df["Bucket"] = df["Bucket"].astype(str).str.strip()
+        df = df[["product_id", "Bucket"]].drop_duplicates(subset="product_id")
+        _cache["fns_bucket"] = df
+        logger.info(f"  FnS bucket mapping loaded: {len(df)} products")
+    return _cache["fns_bucket"]
 
 
 def load_hub_mapping() -> tuple[dict[str, str], set[str]]:
@@ -459,6 +479,22 @@ def compute_avl_corr_sales(raw_df: pd.DataFrame) -> pd.DataFrame:
     if unmapped_cut > 0:
         logger.warning(f"  Step 1: {unmapped_cut} rows have no Cut Classification from P_Master")
     logger.info(f"  Step 1 done: {len(df)} rows")
+
+    # ── Step 1b: For Fish & Seafood, replace Cut Classification with ASP Bucket
+    fns_mask = df["sub_category"].astype(str).str.match(FNS_SUBCAT_RE.pattern, case=False, na=False)
+    n_fns = int(fns_mask.sum())
+    if n_fns > 0:
+        fns_bucket = _load_fns_bucket()
+        bucket_map = fns_bucket.set_index("product_id")["Bucket"]
+        fns_products = df.loc[fns_mask, "product_id"].map(bucket_map)
+        mapped_mask = fns_mask & fns_products.notna()
+        n_mapped = int(mapped_mask.sum())
+        df.loc[mapped_mask, "SKU Class Prod"] = fns_products[mapped_mask]
+        logger.info(
+            f"  Step 1b: FnS bucket override — {n_fns:,} FnS rows, "
+            f"{n_mapped:,} mapped to ASP Bucket, "
+            f"{n_fns - n_mapped:,} kept original Cut Classification"
+        )
 
     avl_flag = _load_avl_flag()
     logger.info("  Step 2: Merging Avl_Flag...")

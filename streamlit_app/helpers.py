@@ -4,6 +4,8 @@ from __future__ import annotations
 
 import streamlit as st
 
+import api_client
+
 
 def key_label(key: str) -> str:
     """Human-readable label for a date key like 'current', 'ref1', etc."""
@@ -40,6 +42,32 @@ def resolve_formula(col_id: str, multiplier: float, offset: float, columns: list
     if col is None:
         return offset
     return multiplier * col["value"] + offset
+
+
+def toggle_minor():
+    """Toggle minor cities visibility; re-compute with include_minor on first show."""
+    if st.session_state.show_minor:
+        st.session_state.show_minor = False
+        return
+
+    if st.session_state.get("minor_data_loaded"):
+        st.session_state.show_minor = True
+        return
+
+    if not st.session_state.get("last_current"):
+        return
+    try:
+        result = api_client.compute(
+            st.session_state.last_current,
+            st.session_state.last_refs,
+            include_minor=True,
+        )
+        st.session_state.data = result
+        st.session_state.store_key = result.get("store_key", "")
+        st.session_state.show_minor = True
+        st.session_state.minor_data_loaded = True
+    except Exception as e:
+        st.session_state.error = f"Failed to load minor cities: {e}"
 
 
 def build_formula_columns(years: dict, hist_keys: list[str]) -> list[dict]:

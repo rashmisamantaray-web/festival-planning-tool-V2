@@ -99,6 +99,23 @@ GSHEET_HUB_MAPPING = {
     "worksheet": "all cities hub mapping",
 }
 
+# Fish & Seafood ASP Bucket mapping.
+# Maps product_id → ASP Bucket ("Less Than 400", "400-800", "More Than 800").
+# For FnS subcategories, the bucket replaces Cut Classification in L3/L5.
+GSHEET_FNS_BUCKET = {
+    "url": "https://docs.google.com/spreadsheets/d/1ep1Lb42dlpFz7ttyzND9JxAwJcdiEd0AIfPimlXh3So",
+    "worksheet": "price bucket",
+}
+
+# Regex matching Fish & Seafood sub_category values.
+# Matches: "Fresh Water", "Sea Water", "Sea water", "Fresh & Seawater",
+# "Freshwater", "Seawater", and similar variations.
+import re as _re
+FNS_SUBCAT_RE = _re.compile(
+    r"(?:fresh\s*(?:&\s*)?(?:sea\s*)?water|sea\s*water)",
+    _re.IGNORECASE,
+)
+
 # Fallback for SKU Class Prod mapping when product_id not in P Master.
 # Maps unique product name -> SKU Class Prod.
 GSHEET_CC_CAT = {
